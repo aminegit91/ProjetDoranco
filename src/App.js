@@ -1,7 +1,29 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+
+const texte = "Premieres petit manip" ;
+const containerClasseName = "App" ;
+
+return (
+
+<div className = {containerClasseName} >
+
+  <h2> Hello Amine From Doranco </h2>
+  <p> {texte.toUpperCase()} </p> 
+
+</div>
+
+);
+
+}
+
+export default App;
+
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +42,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */ 
 
-export default App;
+
